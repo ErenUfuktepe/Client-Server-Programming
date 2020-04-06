@@ -5,39 +5,39 @@
   
  # Definitions
  
- # Basic Client-Server Calculator
+ ## Basic Client-Server Calculator
 
   In the homework definition, this program server waits for basic mathematical operation from the client to calculate it. 
   When the client requests a mathematical operations result from the server, the server returns the result of the operation to the client.
   
-  ## Compile :
+  ###### Compile :
   
   gcc server.c -o server -lpthread
   <br>
   gcc client.c -o client -lpthread
   
- # Chat Room
+ ## Chat Room
  
   In this homework definition, the instructor wants us to build a chatroom. In the client, you need to define a user name and a password. 
   Username is your nickname in the chat room and a password is for a private chat room. If you don't enter a password,  you will be in the public chat room.
   
-  ## Compile :
+  ###### Compile :
   
   gcc server.c -o server -lpthread
   <br>
   gcc client.c -o client -lpthread
   
- # Client-Server Using OpenSSL
+ ## Client-Server Using OpenSSL
  
  In this homework definition, the instructor wants us to create a simple TCP server and client that can talk to each other using a secure 
  channel using the OpenSSL library. The server should echo back what the client writes indefinitely until the client sends the QUIT command.
  
- ## Compile :
+ ###### Compile :
 
  gcc server.c -o server -lssl -lcrypto
  <br>
  gcc client.c -o client -lssl -lcrypto
  
- ## Create Certificate :
+ ###### Create Certificate :
 
  openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
