@@ -37,3 +37,5 @@
  gcc server.c -o server -lssl -lcrypto
  <br>
  gcc client.c -o client -lssl -lcrypto
+ 
+ <img src="Client Server Using OpenSSL.png">
