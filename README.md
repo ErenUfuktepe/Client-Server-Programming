@@ -13,6 +13,7 @@
   Compile :
   
   gcc server.c -o server -lpthread
+  <br>
   gcc client.c -o client -lpthread
   
  # Chat Room
@@ -23,6 +24,7 @@
   Compile :
   
   gcc server.c -o server -lpthread
+  <br>
   gcc client.c -o client -lpthread
   
  # Client-Server Using OpenSSL
@@ -33,4 +35,5 @@
  Compile :
 
  gcc server.c -o server -lssl -lcrypto
+ <br>
  gcc client.c -o client -lssl -lcrypto
