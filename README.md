@@ -38,4 +38,6 @@
  <br>
  gcc client.c -o client -lssl -lcrypto
  
- <img src="Client Server Using OpenSSL.png">
+ Create Certificate
+
+ openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
