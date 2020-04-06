@@ -12,9 +12,9 @@
   
   ## Compile :
   
-  ###### gcc server.c -o server -lpthread
+  gcc server.c -o server -lpthread
   <br>
-  ###### gcc client.c -o client -lpthread
+  gcc client.c -o client -lpthread
   
  # Chat Room
  
@@ -23,9 +23,9 @@
   
   ## Compile :
   
-  ###### gcc server.c -o server -lpthread
+  gcc server.c -o server -lpthread
   <br>
-  ###### gcc client.c -o client -lpthread
+  gcc client.c -o client -lpthread
   
  # Client-Server Using OpenSSL
  
@@ -34,10 +34,10 @@
  
  ## Compile :
 
- ###### gcc server.c -o server -lssl -lcrypto
+ gcc server.c -o server -lssl -lcrypto
  <br>
- ###### gcc client.c -o client -lssl -lcrypto
+ gcc client.c -o client -lssl -lcrypto
  
  ## Create Certificate :
 
- ###### openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
+ openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
